@@ -1,0 +1,94 @@
+body{
+  font-family: "roboto slab";
+  background-color: #fff;
+}
+
+#logo {
+  width:38%;
+  margin:1% 4%;
+  z-index: 2;
+}
+.mainImage{
+  filter: brightness(90%);
+  width:92%;
+  margin-top:.7%;
+  z-index: -3;
+}
+
+.twoVideos{
+  width:46%;
+  margin:1% 1%;
+  height:100%;
+}
+
+.mainText{
+  opacity:.7;
+  margin-left:-12%;
+  margin-top:-54%;
+  color:black;
+  font-size:9pt;
+  font-weight:800;
+  /* text-shadow: 0px 1px 7px rgba(169,169,169,.73); */
+}
+.leftText{
+  width:27%;
+  margin:0% 2%;
+  line-height:1.6;
+}
+
+.rightVideo{
+  width:56%;
+  margin:5% 3%;
+}
+.containerCenter{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    width:100%;
+}
+.containerColumn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.picture_note{
+text-align: center;
+letter-spacing: .05em;
+line-height: 155%;
+}
+
+
+
+@media all and (max-width: 414px){
+  #logo{
+    width:92%;
+    margin:2% 2%;
+  }
+  .logoContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    width:100%;
+  }
+  .mainImage{
+    width:97%;
+    margin-top:3.7%;
+  }
+  .twoVideos{
+    width:100%;
+  }
+  .leftText{
+    width:100%;
+  }
+  .rightVideo{
+    width:100%;
+  }
+  .picture_note{
+    font-size: 10px;
+  }
+}
