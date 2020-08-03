@@ -69,6 +69,9 @@ line-height: 155%;
   width:90%;
 }
 
+.videoExplainer{
+  width:90%;
+}
 
 
 @media all and (max-width: 414px){
@@ -102,5 +105,9 @@ line-height: 155%;
   }
   .speechBubbleImage{
     width:98%;
+  }
+  .videoExplainer{
+    width:96%;
+    margin-top:3%;
   }
 }
