@@ -1,6 +1,14 @@
 body{
-  font-family: "roboto slab";
+  font-family: "Manrope";
   background-color: #fff;
+}
+
+.blockLeft{
+  width:30%;
+  margin-left:10%;
+}
+.blockRight{
+  width:60%;
 }
 
 #logo {
@@ -73,8 +81,22 @@ line-height: 155%;
   width:90%;
 }
 
+@media all and (max-width: 1024px){
+  .blockLeft{
+    width:100%;
+  }
+  .blockRight{
+    width:100%;
+  }
+}
 
 @media all and (max-width: 414px){
+  .blockLeft{
+    width:100%;
+  }
+  .blockRight{
+    width:100%;
+  }
   #logo{
     width:92%;
     margin:2% 2%;
