@@ -93,6 +93,7 @@ line-height: 155%;
 @media all and (max-width: 414px){
   .blockLeft{
     width:100%;
+    margin:0 3% 0 3%;
   }
   .blockRight{
     width:100%;
